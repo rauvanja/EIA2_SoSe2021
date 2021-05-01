@@ -5,16 +5,22 @@ body {
     background-image: url(BG.jpg);
     background-size: cover;
     background-attachment: fixed;
-    margin-top: 10em;
-    display: flex;
+    margin-top: 8em;
     justify-content: center;
+    display: grid;
 }
+
+h1 {
+      grid-column: span 2;
+      text-align: center;
+  }
 
 .fsAdjustment {
     background-color: rgba(0, 0, 0, 0.151);
     border-color: black;
     border-radius: 0.5em;
     width: 400px;
+    
     
 }
 
