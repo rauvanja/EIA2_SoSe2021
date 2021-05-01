@@ -11,9 +11,9 @@ body {
 }
 
 h1 {
-      grid-column: span 2;
-      text-align: center;
-  }
+    grid-column: span 2;
+    text-align: center;
+}
 
 .fsAdjustment {
     background-color: rgba(0, 0, 0, 0.151);
