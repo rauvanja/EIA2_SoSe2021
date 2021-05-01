@@ -1,6 +1,6 @@
 "use strict";
-// Anna ich bekomm's nicht hin... :( 
-// Leider konnte ich am Donnerstag nicht ins Prakitkum kommen, weil wir soviel zu tun hatten, das ich erst gestern angefangen habe.
+// Hallo Anna :) klappt leider noch nicht so ganz, wie ich mir das vorstelle...
+// Leider konnte ich am Donnerstag nicht ins Prakitkum kommen, weil wir soviel zu tun hatten, das ich erst gestern angefangen konnte.
 // Können wir nächste Woche eine Nachhilfestunde machen? 
 var L03_MemorySettings;
 (function (L03_MemorySettings) {
@@ -96,7 +96,7 @@ var L03_MemorySettings;
         return _array;
     }
     function main(_event) {
-        let fieldset = document.querySelector(".formular");
+        let fieldset = document.querySelector(".fsAdjustment");
         if (fieldset.classList.contains("visible")) {
             fieldset.classList.remove("visible");
             fieldset.classList.add("is-hidden");

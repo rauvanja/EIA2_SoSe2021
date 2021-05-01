@@ -1,5 +1,5 @@
-// Anna ich bekomm's nicht hin... :( 
-// Leider konnte ich am Donnerstag nicht ins Prakitkum kommen, weil wir soviel zu tun hatten, das ich erst gestern angefangen habe.
+// Hallo Anna :) klappt leider noch nicht so ganz, wie ich mir das vorstelle...
+// Leider konnte ich am Donnerstag nicht ins Prakitkum kommen, weil wir soviel zu tun hatten, das ich erst gestern angefangen konnte.
 // Können wir nächste Woche eine Nachhilfestunde machen? 
 
 namespace L03_MemorySettings {
@@ -110,7 +110,7 @@ namespace L03_MemorySettings {
 
     function main(_event: Event): void {
 
-        let fieldset: HTMLFormElement = <HTMLFormElement>document.querySelector(".formular");
+        let fieldset: HTMLFormElement = <HTMLFormElement>document.querySelector(".fsAdjustment");
         if (fieldset.classList.contains("visible")) {
             fieldset.classList.remove("visible");
             fieldset.classList.add("is-hidden");
