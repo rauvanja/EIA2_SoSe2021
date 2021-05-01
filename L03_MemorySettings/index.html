@@ -11,7 +11,12 @@
 </head>
 
 <body>
-    <h1>MEMORY </h1>
+    <section id="game">
+        <h1>MEMORY</h1>
+        <div id="user"></div>
+    </section>
+
+    <form>
     <fieldset class="fsAdjustment" id="fsAdjustment">
 
         <legend>Select your own style!</legend>
@@ -19,12 +24,12 @@
         <input class="stepper" type="number" name="Stepper" step="1" min="5" max="25" value="5" />
         <hr />
         <h4>SIZE</h4>
-        <input class="slider" type="range" name="Slider" min="0" max="10" step="1" value="5" />
+        <input class="slider" type="range" name="Slider" min="100" max="200" step="10" value="150" />
         <hr />
         <h4>COLOR</h4>
-        BG <input class="backgroundColor" type="color" name="Color" placeholder="pink" id="color" value="#E0587C">
-        Card <input class="frontColor" type="color" name="Color" placeholder="pink" id="color" value="#E0587C">
-        Font <input class="fontColor" type="color" name="Color" placeholder="pink" id="color" value="#E0587C">
+        BG <input class="backgroundColor" type="color" name="BGColor" placeholder="pink" id="bGcolor" value="#E0587C">
+        Card <input class="cardColor" type="color" name="CColor" placeholder="pink" id="bCcolor" value="#E0587C">
+        Font <input class="fontColor" type="color" name="FColor" placeholder="pink" id="fColor" value="#E0587C">
         <hr />
         <h4>FONT</h4>
         <input type="radio" name="Radiogroup" value="Helvetica" id="radio1" />
@@ -34,8 +39,9 @@
         <input type="radio" name="Radiogroup" value="Arial" id="radio3" />
         <label for="radio3">Arial</label>
         <hr />
-        <button type="button " class="button" style="vertical-align:middle"><span>START</span></button>
+        <button type="button" class="start">START</button>
     </fieldset>
+    </form>
 </body>
 
 </html>

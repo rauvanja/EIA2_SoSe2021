@@ -21,6 +21,71 @@ h1 {
     border-radius: 0.5em;
     width: 400px;
     
-    
 }
 
+#game {
+	justify-content: center; 
+	text-align: center;
+}
+
+#user {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: center; 
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+.p{
+	position: absolute;
+	text-align: center;
+	justify-content: center;
+}
+
+.formular{
+	width: 500px;
+	height: 250px;
+	text-align: center;
+	margin-left: 370px;
+    border-color: white;
+}
+
+.card{
+	height: 300px;
+  	width: 200px;
+	margin: 0px 25px 25px 0px;
+	text-align: center;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.is-hidden{
+	display: none;
+}
+
+.hidden{
+	background-color: black;
+	cursor: pointer;
+}
+
+.hidden p{
+	display: none;
+}
+
+.open{
+	background-color: rgb(231, 236, 234);
+}
+
+.done{
+	visibility: hidden;
+}
+
+.done p{
+	display: none;
+}
