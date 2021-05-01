@@ -11,34 +11,43 @@
 </head>
 
 <body>
-    <div class="adjustment" id="adjustment">
+    
+    <fieldset class="fsAdjustment" id="fsAdjustment">
+        
         <h1>MEMORY </h1>
-        </br>
-        Select your own style!
-        </br>
-        CARDS
+        <a>Select your own style!</a>
+
+        <p>
+        <h4>CARDS</h4>
+        </p>
         <input class="stepper" type="number" name="Stepper" step="1" min="5" max="25" value="5" />
-        </br>
-        SIZE
+
+        <p>
+        <h4>SIZE</h4>
+        </p>
         <input class="slider" type="range" name="Slider" min="0" max="1" step="0.1" value="0" />
-        </br>
-        COLOR
-        </br>
+
+        <p>
+        <h4>COLOR</h4>
+        </p>
         BG <input class="backgroundColor" type="color" name="Color" placeholder="pink" id="color" value="#E0587C">
         Card <input class="frontColor" type="color" name="Color" placeholder="pink" id="color" value="#E0587C">
         Font <input class="fontColor" type="color" name="Color" placeholder="pink" id="color" value="#E0587C">
-        </br>
-        FONT
-        </br>
-        <input type="radio" name="Radiogroup" value="Arial" id="radio1" />
-            <label for="radio1">Arial</label>
-            <input type="radio" name="Radiogroup" value="Helvetica" id="radio2" />
-            <label for="radio2">Helvetica</label>
-            <input type="radio" name="Radiogroup" value="Calibri" id="radio3" />
-            <label for="radio3">Calibri</label>
-        </br>
-        <button type="button " class="button" style="vertical-align:middle"><span>START</span></button>
-    </div>
+
+        <p>
+        <h4>FONT</h4>
+        </p>
+        <input type="radio" name="Radiogroup" value="Helvetica" id="radio1" />
+        <label for="radio1">Helvetica</label>
+        <input type="radio" name="Radiogroup" value="Georgia" id="radio2" />
+        <label for="radio2">Georgia</label>
+        <input type="radio" name="Radiogroup" value="Arial" id="radio3" />
+        <label for="radio3">Arial</label>
+
+        <p>
+            <button type="button " class="button" style="vertical-align:middle"><span>START</span></button>
+        </p>
+    </fieldset>
 </body>
 
 </html>
