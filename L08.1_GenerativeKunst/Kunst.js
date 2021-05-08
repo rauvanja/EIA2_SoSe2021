@@ -1,4 +1,6 @@
 "use strict";
+//Hallo Anna :) leider hat es diesen Donnerstag auch nicht geklappt, hatte spontan einen Arzttermin
+// Die Aufgabe von dieser Woche ist mir auch noch nicht so gelungen, wie ich wollte, werde mich daran weiter probieren, aber die Zeit ist auch wirklich immer knapp mit den anderen Sachen, die wir auch zu erledigen haben.
 var GenerativeKunst;
 (function (GenerativeKunst) {
     window.addEventListener("load", start);
