@@ -1,19 +1,19 @@
-namespace Inheritance {
+namespace Advanced {
 
-    export class SmallCloud extends SuperclassCloud {
+    export class BigCloud extends SuperclassCloud {
 
-        x: number;
-        y: number;
-        speed: number;
+        // x: number;
+        // y: number;
+        // speed: number;
 
         constructor(x: number, y: number) {
             super(x, y);
-            this.moveForward2();
+            this.moveForward();
             this.drawCloud1();
         }
 
-        // Methode drawCloud 1
-        drawCloud1(): void {
+         // Methode drawCloud 1
+         drawCloud1(): void {
 
             crc2.beginPath();
             crc2.fillStyle = "#FFFFFF";
@@ -32,9 +32,10 @@ namespace Inheritance {
             crc2.fillText("click", 1066, 333);
         }
 
-        moveForward2(): void {
-            this.x += this.speed * (+0.05) ; // - nach links und + nach rechts           
+
+        moveForward(): void {
+            this.x += this.speed * (+0.04) ; // - nach links und + nach rechts           
         }
 
-    }
-}
+    } // close class
+} // close namespace

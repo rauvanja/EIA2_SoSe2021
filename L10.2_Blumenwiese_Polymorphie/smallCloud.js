@@ -17,7 +17,7 @@ var Inheritance;
             Inheritance.crc2.arc(this.x + 130, this.y + 20, 25, 0, 2 * Math.PI);
             Inheritance.crc2.closePath();
             Inheritance.crc2.fill();
-            // Klick beim Vogel
+            // Klick
             Inheritance.crc2.font = "18px Helvetica";
             Inheritance.crc2.fillStyle = "#3B170B";
             Inheritance.crc2.fillText("click", 1066, 333);
